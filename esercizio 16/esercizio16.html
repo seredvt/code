@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>esercizio 16</title>
+    <style>
+        table,td{
+        margin-left: auto;
+        margin-right: auto;}
+         .cur{width:100px;}
+         .testo{
+              width:300px;
+              text-align: right;}
+         .data{
+                width:60px;}
+         .tab{text-align: center;}
+        
+    </style>
+</head>
+<body>
+  <form>
+    <table>
+        <tr>
+  <td class="cur"><img src="img/archeuropass_logo.jpg" width=300px heigt=200px></td>
+  <td></td>
+</tr>
+        <tr>
+        <td class="testo"><h2>Curriculum Vitae <br>Europass</h2>
+        <b>Informazioni Personali</b>
+            </td>
+        <td></td></tr>
+        <td class="testo">Nome(i)Cognome(i)</td>
+        <td>
+            <input type="text"
+                   name="nomcog"
+                   size=70
+                   id="cognnom"
+                   required"/>
+        </td></tr>
+        <tr>
+            <td class="testo"> Indirizzo(i)</td>
+           <td>
+            <input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/>
+        </td> 
+        </tr>
+        <tr>
+            <td class="testo">Telefono(i)</td>
+            <td><input type="text"
+                   name="telef"
+                   size=70
+                   id="tel"
+                   required"/></td>
+        </tr>
+        <tr>
+            <td class="testo">E-mail</td>
+             <td><input type="text"
+                   name="mail"
+                   size=70
+                   id="email"
+                   required"/></td>
+        </tr>
+        <tr>
+            <td class="testo">Cittadinanza</td>
+            <td><input type="text"
+                   name="cit"
+                   size=70
+                   id="cittadina"
+                   required"/></td>
+        </tr>
+            <tr>
+                <td class="testo">Data di nascita</td>
+                <td ><select><option value"date" id="data" selected>Giorno</option>
+                <option value"1" id="1" selected>1</option>
+                <option value"2" id="2" selected>2</option>
+                <option value"3" id="3" selected>3</option>
+                <option value"4" id="4" selected>4</option>
+                <option value"5" id="5" selected>5</option>
+                <option value"6" id="6" selected>6</option>
+                <option value"7" id="7" selected>7</option>
+                <option value"8" id="8" selected>8</option>
+                <option value"9" id="9" selected>9</option>
+                <option value"10" id="10" selected>10</option>
+                <option value"11" id="11" selected>11</option>
+                <option value"12" id="12" selected>12</option>
+                <option value"13" id="13" selected>13</option>
+                <option value"14" id="14" selected>14</option>
+                <option value"15" id="15" selected>15</option>
+                <option value"16" id="16" selected>16</option>
+                <option value"17" id="17" selected>17</option>
+                <option value"18" id="18" selected>18</option>
+                <option value"19" id="19" selected>19</option>
+                <option value"20" id="20" selected>20</option>
+                <option value"21" id="21" selected>21</option>
+                <option value"22" id="22" selected>22</option>
+                <option value"23" id="23" selected>23</option>
+                <option value"24" id="24" selected>24</option>
+                <option value"25" id="25" selected>25</option>
+                <option value"26" id="26" selected>26</option>
+                <option value"27" id="27" selected>27</option>
+                <option value"28" id="28" selected>28</option>
+                <option value"29" id="29" selected>29</option>
+                <option value"30" id="30" selected>30</option>
+                <option value"31" id="31" selected>31</option>
+                 </select>
+                <select><option value"mese" id="mese" selected>Mese</option>
+                <option value"gennaio" id="gen" selected>Gennaio</option>
+                <option value"febbraio" id="febbr" selected>Febbraio</option>
+                <option value"marzo" id="marz" selected>Marzo</option>
+                <option value"aprile" id="aprl" selected>Aprile</option>
+                <option value"maggio" id="mag" selected>Maggio</option>
+                <option value"giugno" id="giugn" selected>Giugno</option>
+                <option value"luglio" id="lug" selected>Luglio</option>
+                <option value"agosto" id="ago" selected>Agosto</option>
+                <option value"settembre" id="sett" selected>Settembre</option>
+                <option value"ottobre" id="ott" selected>Ottobre</option>
+                <option value"novembre" id="nove" selected>Novembre</option>
+                <option value"dicembre" id="dic" selected>Dicembre</option></select>
+                <input type="text"
+                             name="scrivi"
+                             size=8
+                             id="nul"
+                              required"/>
+            </tr>
+              <td class="testo">Sesso</td>
+              <td><select><option value"date" id="data" selected>seleziona</option>
+                        <option value"m" id="m" selected>maschio</option>
+                        <option value"f" id="f" selected>femmina</option>
+                        </select>
+                    </td></tr>
+        <tr>
+          <td class="testo"><b>Occupazione desiderata/<br>Settore professionale</b></td>
+           <td>
+            <input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/>
+        </td>
+        </tr>
+        <tr>
+           <td class="testo"><b>Esperienza Professionale</b></td>
+           <td></td>
+           </tr>
+           <tr>
+            <td class="testo">Date</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           <tr>
+            <td class="testo">Lavoro o posizioni ricoperte</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           <tr>
+            <td class="testo">Principali attività e responsabilità</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+          <tr>
+            <td class="testo">Nome e indirizzo del datore di lavoro</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           
+           <tr>
+            <td class="testo">Tipo di attività o settore</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td></tr>
+            <tr><td class="testo">
+              <b>Istruzione e formazione</b>
+            </td><td></td></tr>
+            <tr>
+            <td class="testo">Date</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+            <tr>
+            <td class="testo">Titolo della qualifica rilasciata</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+            <tr>
+            <td class="testo">Principali tematiche/competenze<br>professionali possedute</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+            <td class="testo">Nome tipo d'organizzazione<br>erogatrice dell'istruzione e formazione</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           <td class="testo">Livello nella classifica nazionale o<br>internazionale</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+      <tr>
+        <td class="testo"><b>Capacità e competenze <br>personali</b></td>
+            <td></td>
+      </tr>
+      <tr>
+        <td class="testo">Madrelingua</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+          </tr>
+       <tr>
+        <td class="testo">Altra(e) lingua(e)</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+          </tr>
+        <tr>
+       <td class="testo">Autovalutazione<br><br>
+                         Livello europeo<br><br>
+                         <b>Inglese</b><br><br>
+                         <b>Francese</b><br><br>
+                         <b>Tedesco</b></td>
+        <td>
+          <table class="tab" border=2 width=550><tr><th colspan=4>
+            Comprensione</th>
+          <th colspan=4>Parlato</th>
+          <th colspan=2>Scritto</th>
+          </tr>
+          <tr>
+            <td colspan=2>Ascolto</td>
+            <td colspan=2>Lettura</td>
+            <td colspan=2>Interazione orale</td>
+            <td colspan=2>Produzione orale</td>
+            <td colspan=2></td>
+          </tr>
+          <tr>
+            <td>B1</td>
+            <td>Utente<br>autonomo</td>
+            <td>C1</td>
+            <td>Utente<br>avanzato</td>
+            <td>B1</td>
+            <td>Utente<br> autonomo</td>
+             <td>B1</td>
+            <td>Utente<br> autonomo</td>
+            <td>A1</td>
+            <td>Utente<br>base</td>
+          </tr>
+          <tr>
+            <td>B1</td>
+            <td>Utente <br>autonomo</td>
+            <td>B2</td>
+            <td>Utente <br>autonomo</td>
+            <td>B1</td>
+            <td>Utente<br>autonomo</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente<br>base</td>
+          </tr>
+          <tr>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente<br> base</td>
+          </tr>
+          </table></tr>
+           <tr>
+            <td></td>
+            <td>(*) Quadro comune europeo di riferimento per le lingue</td>
+           </tr>
+           <td class="testo">Capacità e competenze sociali</td>
+           <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td></tr>
+           <td class="testo">Capacità e competenze organizzative</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+              <td class="testo">Capacità e competenze informatiche</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+               <td class="testo">Capacità e competenze artistiche</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+              <td class="testo">Altre capacità e competenze</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+               <td class="testo">Patente</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+                <td class="testo">Trattamento dati personali</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+               <td class="testo"><b>Firma</b></td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>   
+        </table>
+</form>
+  <center><br>
+CODING HTML
+<form><textarea name="cod1" id="html" rows="15" cols="50">
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>esercizio 16</title>
+    <style>
+        table,td{
+        margin-left: auto;
+        margin-right: auto;}
+         .cur{width:100px;}
+         .testo{
+              width:300px;
+              text-align: right;}
+         .data{
+                width:60px;}
+         .tab{text-align: center;}
+        
+    </style>
+</head>
+<body>
+  <form>
+    <table>
+        <tr>
+  <td class="cur"><img src="img/archeuropass_logo.jpg" width=300px heigt=200px></td>
+  <td></td>
+</tr>
+        <tr>
+        <td class="testo"><h2>Curriculum Vitae <br>Europass</h2>
+        <b>Informazioni Personali</b>
+            </td>
+        <td></td></tr>
+        <td class="testo">Nome(i)Cognome(i)</td>
+        <td>
+            <input type="text"
+                   name="nomcog"
+                   size=70
+                   id="cognnom"
+                   required"/>
+        </td></tr>
+        <tr>
+            <td class="testo"> Indirizzo(i)</td>
+           <td>
+            <input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/>
+        </td> 
+        </tr>
+        <tr>
+            <td class="testo">Telefono(i)</td>
+            <td><input type="text"
+                   name="telef"
+                   size=70
+                   id="tel"
+                   required"/></td>
+        </tr>
+        <tr>
+            <td class="testo">E-mail</td>
+             <td><input type="text"
+                   name="mail"
+                   size=70
+                   id="email"
+                   required"/></td>
+        </tr>
+        <tr>
+            <td class="testo">Cittadinanza</td>
+            <td><input type="text"
+                   name="cit"
+                   size=70
+                   id="cittadina"
+                   required"/></td>
+        </tr>
+            <tr>
+                <td class="testo">Data di nascita</td>
+                <td ><select><option value"date" id="data" selected>Giorno</option>
+                <option value"1" id="1" selected>1</option>
+                <option value"2" id="2" selected>2</option>
+                <option value"3" id="3" selected>3</option>
+                <option value"4" id="4" selected>4</option>
+                <option value"5" id="5" selected>5</option>
+                <option value"6" id="6" selected>6</option>
+                <option value"7" id="7" selected>7</option>
+                <option value"8" id="8" selected>8</option>
+                <option value"9" id="9" selected>9</option>
+                <option value"10" id="10" selected>10</option>
+                <option value"11" id="11" selected>11</option>
+                <option value"12" id="12" selected>12</option>
+                <option value"13" id="13" selected>13</option>
+                <option value"14" id="14" selected>14</option>
+                <option value"15" id="15" selected>15</option>
+                <option value"16" id="16" selected>16</option>
+                <option value"17" id="17" selected>17</option>
+                <option value"18" id="18" selected>18</option>
+                <option value"19" id="19" selected>19</option>
+                <option value"20" id="20" selected>20</option>
+                <option value"21" id="21" selected>21</option>
+                <option value"22" id="22" selected>22</option>
+                <option value"23" id="23" selected>23</option>
+                <option value"24" id="24" selected>24</option>
+                <option value"25" id="25" selected>25</option>
+                <option value"26" id="26" selected>26</option>
+                <option value"27" id="27" selected>27</option>
+                <option value"28" id="28" selected>28</option>
+                <option value"29" id="29" selected>29</option>
+                <option value"30" id="30" selected>30</option>
+                <option value"31" id="31" selected>31</option>
+                 </select>
+                <select><option value"mese" id="mese" selected>Mese</option>
+                <option value"gennaio" id="gen" selected>Gennaio</option>
+                <option value"febbraio" id="febbr" selected>Febbraio</option>
+                <option value"marzo" id="marz" selected>Marzo</option>
+                <option value"aprile" id="aprl" selected>Aprile</option>
+                <option value"maggio" id="mag" selected>Maggio</option>
+                <option value"giugno" id="giugn" selected>Giugno</option>
+                <option value"luglio" id="lug" selected>Luglio</option>
+                <option value"agosto" id="ago" selected>Agosto</option>
+                <option value"settembre" id="sett" selected>Settembre</option>
+                <option value"ottobre" id="ott" selected>Ottobre</option>
+                <option value"novembre" id="nove" selected>Novembre</option>
+                <option value"dicembre" id="dic" selected>Dicembre</option></select>
+                <input type="text"
+                             name="scrivi"
+                             size=8
+                             id="nul"
+                              required"/>
+            </tr>
+              <td class="testo">Sesso</td>
+              <td><select><option value"date" id="data" selected>seleziona</option>
+                        <option value"m" id="m" selected>maschio</option>
+                        <option value"f" id="f" selected>femmina</option>
+                        </select>
+                    </td></tr>
+        <tr>
+          <td class="testo"><b>Occupazione desiderata/<br>Settore professionale</b></td>
+           <td>
+            <input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/>
+        </td>
+        </tr>
+        <tr>
+           <td class="testo"><b>Esperienza Professionale</b></td>
+           <td></td>
+           </tr>
+           <tr>
+            <td class="testo">Date</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           <tr>
+            <td class="testo">Lavoro o posizioni ricoperte</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           <tr>
+            <td class="testo">Principali attività e responsabilità</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+          <tr>
+            <td class="testo">Nome e indirizzo del datore di lavoro</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           
+           <tr>
+            <td class="testo">Tipo di attività o settore</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td></tr>
+            <tr><td class="testo">
+              <b>Istruzione e formazione</b>
+            </td><td></td></tr>
+            <tr>
+            <td class="testo">Date</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+            <tr>
+            <td class="testo">Titolo della qualifica rilasciata</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+            <tr>
+            <td class="testo">Principali tematiche/competenze<br>professionali possedute</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+            <td class="testo">Nome tipo d'organizzazione<br>erogatrice dell'istruzione e formazione</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+           <td class="testo">Livello nella classifica nazionale o<br>internazionale</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+           </tr>
+      <tr>
+        <td class="testo"><b>Capacità e competenze <br>personali</b></td>
+            <td></td>
+      </tr>
+      <tr>
+        <td class="testo">Madrelingua</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+          </tr>
+       <tr>
+        <td class="testo">Altra(e) lingua(e)</td>
+            <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td>
+          </tr>
+        <tr>
+       <td class="testo">Autovalutazione<br><br>
+                         Livello europeo<br><br>
+                         <b>Inglese</b><br><br>
+                         <b>Francese</b><br><br>
+                         <b>Tedesco</b></td>
+        <td>
+          <table class="tab" border=2 width=550><tr><th colspan=4>
+            Comprensione</th>
+          <th colspan=4>Parlato</th>
+          <th colspan=2>Scritto</th>
+          </tr>
+          <tr>
+            <td colspan=2>Ascolto</td>
+            <td colspan=2>Lettura</td>
+            <td colspan=2>Interazione orale</td>
+            <td colspan=2>Produzione orale</td>
+            <td colspan=2></td>
+          </tr>
+          <tr>
+            <td>B1</td>
+            <td>Utente<br>autonomo</td>
+            <td>C1</td>
+            <td>Utente<br>avanzato</td>
+            <td>B1</td>
+            <td>Utente<br> autonomo</td>
+             <td>B1</td>
+            <td>Utente<br> autonomo</td>
+            <td>A1</td>
+            <td>Utente<br>base</td>
+          </tr>
+          <tr>
+            <td>B1</td>
+            <td>Utente <br>autonomo</td>
+            <td>B2</td>
+            <td>Utente <br>autonomo</td>
+            <td>B1</td>
+            <td>Utente<br>autonomo</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente<br>base</td>
+          </tr>
+          <tr>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente base</td>
+            <td>A1</td>
+            <td>Utente<br> base</td>
+          </tr>
+          </table></tr>
+           <tr>
+            <td></td>
+            <td>(*) Quadro comune europeo di riferimento per le lingue</td>
+           </tr>
+           <td class="testo">Capacità e competenze sociali</td>
+           <td><input type="text"
+                   name="indir"
+                   size=70
+                   id="ind"
+                   required"/></td></tr>
+           <td class="testo">Capacità e competenze organizzative</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+              <td class="testo">Capacità e competenze informatiche</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+               <td class="testo">Capacità e competenze artistiche</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+              <td class="testo">Altre capacità e competenze</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+               <td class="testo">Patente</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+                <td class="testo">Trattamento dati personali</td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>
+               <td class="testo"><b>Firma</b></td>
+           <td><input type="text"
+                 name="conpet"
+                 size=70
+                 id="comp"
+                 required/></td></tr>   
+        </table>
+</form>
+</body>
+</html>
+</textarea>
+</center>
+</body>
+</html>

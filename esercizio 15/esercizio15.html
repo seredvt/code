@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>esercizio 15</title>
+    <style>
+        table{
+               width:600px;}
+               
+        .giorno {width: 60px;}
+        .data{width:140px;}
+        .mese{width:120px;}
+        .vert {vertical-align: top;
+               width: 130px;}
+        
+        
+    </style>
+</head>
+<body>
+    
+    <tr>
+    <h1>Modulo di iscrizione</h1>
+    <table>
+    <td><form>Cognome </td>
+    <td><input type="text"
+               name="cognome"
+               size=38
+               id="cogn"
+               required"/></td></tr>
+    <tr>
+        <td class="data">Nome</td>
+        <td ><input type="text"
+               name="nome"
+               size=38
+               id="nom"
+               required"/></td></tr>
+    </table>
+    <table >
+    <tr>
+        <td class="data">Data di nascita </td>
+        <td class="giorno">Giorno<br>
+            <input type="text"
+               name="giorno"
+               size=5
+               id="day"
+               required"/></td>
+          <td class="mese"> Mese<br>
+            <input type="text"
+               name="mese"
+               size=15
+               id="mes"
+               required"/></td>
+          <td>Anno<br>
+              <input type="text"
+               name="mese"
+               size=7
+               id="mes"
+               required"/></td></td>
+    </tr>
+   </table>
+    <table>
+       <tr>
+        <td class="data">Sesso</td>
+        <td><form>
+         M<input type="radio" name="tipo" value="m" id="n"/>
+         F<input type="radio" name="tipo" value="f" id="f"/>
+        </form></td></tr>
+       <tr>
+        <td class="data">Telefono</td>
+        <td><form><input type="text"
+               name="telefono"
+               size=26
+               id="tel"
+               required"/></form></td>
+       </tr>
+       <tr>
+        <td class="data">Provincia</td>
+        <td><select>
+            <option value"pv" selected>PV</option>
+            <option value"pa" selected>PA</option>
+            <option value"rm" selected>RM</option>
+        </select></td>
+       </tr>
+    </table>
+    <p>secondo quali modaltà si desidera ricevere maggiori informazioni?</p>
+    <table>
+        <tr>
+            <td class="data"> (sono emesse scelte multiple)</td>
+            <td class="vert"> Posta ordinaria<br> Posta elettronica<br>
+            Telefono</td>
+            <td><form><input type="checkbox"
+                             name="interesse"
+                             value="posta" id="ord"/><br></form>
+            <form><input type="checkbox"
+                             name="interesse"
+                             value="posta" id="elett"/><br></form>
+            <form><input type="checkbox"
+                             name="interesse"
+                             value="telefono" id="tel"/><br></form></td>
+            
+        </tr>
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        Note(specificare eventuali richiesteparticolari)<br>
+                        <textarea name="consigli" id="consigli" rows="10" cols="50"></textarea><br><br>
+                        <input type="submit" value="invia">
+                         
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+<center><br>
+CODING HTML/CSS
+<form><textarea name="cod1" id="html" rows="15" cols="50">
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>esercizio 15</title>
+    <style>
+        table{
+               width:600px;}
+               
+        .giorno {width: 60px;}
+        .data{width:140px;}
+        .mese{width:120px;}
+        .vert {vertical-align: top;
+               width: 130px;}
+        
+        
+    </style>
+</head>
+<body>
+    
+    <tr>
+    <h1>Modulo di iscrizione</h1>
+    <table>
+    <td><form>Cognome </td>
+    <td><input type="text"
+               name="cognome"
+               size=38
+               id="cogn"
+               required"/></td></tr>
+    <tr>
+        <td class="data">Nome</td>
+        <td ><input type="text"
+               name="nome"
+               size=38
+               id="nom"
+               required"/></td></tr>
+    </table>
+    <table >
+    <tr>
+        <td class="data">Data di nascita </td>
+        <td class="giorno">Giorno<br>
+            <input type="text"
+               name="giorno"
+               size=5
+               id="day"
+               required"/></td>
+          <td class="mese"> Mese<br>
+            <input type="text"
+               name="mese"
+               size=15
+               id="mes"
+               required"/></td>
+          <td>Anno<br>
+              <input type="text"
+               name="mese"
+               size=7
+               id="mes"
+               required"/></td></td>
+    </tr>
+   </table>
+    <table>
+       <tr>
+        <td class="data">Sesso</td>
+        <td><form>
+         M<input type="radio" name="tipo" value="m" id="n"/>
+         F<input type="radio" name="tipo" value="f" id="f"/>
+        </form></td></tr>
+       <tr>
+        <td class="data">Telefono</td>
+        <td><form><input type="text"
+               name="telefono"
+               size=26
+               id="tel"
+               required"/></form></td>
+       </tr>
+       <tr>
+        <td class="data">Provincia</td>
+        <td><select>
+            <option value"pv" selected>PV</option>
+            <option value"pa" selected>PA</option>
+            <option value"rm" selected>RM</option>
+        </select></td>
+       </tr>
+    </table>
+    <p>secondo quali modaltà si desidera ricevere maggiori informazioni?</p>
+    <table>
+        <tr>
+            <td class="data"> (sono emesse scelte multiple)</td>
+            <td class="vert"> Posta ordinaria<br> Posta elettronica<br>
+            Telefono</td>
+            <td><form><input type="checkbox"
+                             name="interesse"
+                             value="posta" id="ord"/><br></form>
+            <form><input type="checkbox"
+                             name="interesse"
+                             value="posta" id="elett"/><br></form>
+            <form><input type="checkbox"
+                             name="interesse"
+                             value="telefono" id="tel"/><br></form></td>
+            
+        </tr>
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        Note(specificare eventuali richiesteparticolari)<br>
+                        <textarea name="consigli" id="consigli" rows="10" cols="50"></textarea><br><br>
+                        <input type="submit" value="invia">
+                         
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+</center>
+</textarea>
+</body>
+</html>

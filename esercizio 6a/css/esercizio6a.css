@@ -1,0 +1,7 @@
+table {width: 800px;}
+.comic {font-family: "Comic Sans MS";}
+.destra {text-align: right;}
+.comic30 {font-family: "Comic Sans MS"; font-size: 30px;}
+.giustificato {font-family: "Comic Sans MS"; text-align: justify;}
+.blu {font-family: "Comic Sans MS"; color: blue; text-decoration: underline;}
+#top400 {vertical-align: top; width: 400px;}
